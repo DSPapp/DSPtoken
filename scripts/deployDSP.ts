@@ -1,7 +1,6 @@
 const hre = require("hardhat");
 
 async function main() {
-
   const DF = await hre.ethers.getContractFactory("DSP");
 
   const df = await DF.deploy();
